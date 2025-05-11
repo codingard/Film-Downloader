@@ -1,4 +1,4 @@
-# M3U8 Downloader
+# Film Downloader
 
 Video downloader that extracts `.m3u8` links from a web page using Chrome Developer Tools, downloads all `.ts` segments, and merges them into a single `.mp4` file using ffmpeg.
 
