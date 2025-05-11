@@ -1,0 +1,4 @@
+aiohttp
+undetected-chromedriver
+tqdm
+fake-useragent
