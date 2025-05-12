@@ -36,7 +36,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. **[macOS ONLY] Fix SSL certificate error**  
+4. **(macOS ONLY) Fix SSL certificate error**  
 Run this once:
 ```bash
 /Applications/Python\ 3.X/Install\ Certificates.command
@@ -49,7 +49,7 @@ Run this once:
 Start the script:
 
 ```bash
-python -m m3u8_downloader
+python -m film_downloader
 ```
 
 You will be prompted to paste a video page URL (from Rezka or similar). The script will:
@@ -72,9 +72,9 @@ You will be prompted to paste a video page URL (from Rezka or similar). The scri
 ## ✅ Example
 
 ```bash
-🔗 Enter the URL of the video page: https://rezka-ua.in/cartoons/fiction/78512-hvostatye-mstiteli-2019.html
+🔗 Enter the URL of the video page: https://rezka.ag/films/drama/806-pobeg-iz-shoushenka-1994.html
 🎯 Target stream: https://cdn.example.com/playlist.m3u8
-💾 Output file will be saved as: output/hvostatye-mstiteli.mp4
+💾 Output file will be saved as: output/pobeg-iz-shoushenka.mp4
 ```
 
 ---
@@ -101,9 +101,4 @@ If missing:
 - Segment downloading uses `aiohttp` for async performance
 - `.m3u8` links expire quickly, so run the script right after copying the page URL
 - Make sure the stream is accessible from your IP region
-
----
-
-## 📄 License
-
-MIT
+  
